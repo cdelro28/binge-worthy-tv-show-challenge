@@ -46,16 +46,16 @@
       }
 
       .image-charles {
-        width: 500px;
-        height: 400px;
+        width: 450px;
+        height: 350px;
         background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/115/167/original/charles-main.png?1707791165");
         background-size: cover;
         border-radius: 10px;
       }
 
       .image-charles:hover {
-        width: 500px;
-        height: 400px;
+        width: 450px;
+        height: 350px;
         background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/115/168/original/charles-hover.png?1707791178");
         background-size: cover;
         background-position: center;
@@ -64,16 +64,16 @@
       }
 
       .image-oliver {
-        width: 500px;
-        height: 400px;
+        width: 450px;
+        height: 350px;
         background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/115/165/original/oliver-main.png?1707791150");
         background-size: cover;
         border-radius: 10px;
       }
 
       .image-oliver:hover {
-        width: 500px;
-        height: 400px;
+        width: 450px;
+        height: 350px;
         background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/115/166/original/oliver-hover.png?1707791157");
         background-size: cover;
         background-position: center;
@@ -82,16 +82,16 @@
       }
 
       .image-mabel {
-        width: 500px;
-        height: 400px;
+        width: 450px;
+        height: 350px;
         background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/115/163/original/mabel-main.png?1707791129");
         background-size: cover;
         border-radius: 10px;
       }
 
       .image-mabel:hover {
-        width: 500px;
-        height: 400px;
+        width: 450px;
+        height: 350px;
         background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/115/164/original/mabel-hover.png?1707791143");
         background-size: cover;
         background-position: center;
@@ -106,8 +106,7 @@
         border-radius: 10px;
       }
       .summary {
-        max-width: 500px;
-        margin-left: 200px;
+        margin-left: 20px;
         padding: 20px 30px;
         border-radius: 10px;
         line-height: 2.5;
@@ -126,6 +125,34 @@
 
       div {
         background-color: #fff;
+      }
+
+      em {
+        line-height: 2.5;
+      }
+
+      .edpisodes-container {
+        display: flex;
+        justify-content: space-around;
+        background-color: rgba(255, 255, 255, 0.5);
+        padding: 20px;
+        border-radius: 10px;
+        margin: 20px 100px;
+      }
+
+      .edpisodes-container div {
+        padding: 30px;
+        border-radius: 10px;
+      }
+
+      footer {
+        text-align: center;
+        color: #fff;
+      }
+
+      footer a {
+        color: #e6c985;
+        text-decoration: none;
       }
     </style>
   </head>
@@ -158,20 +185,23 @@
         more explosive are the lies they tell one another. Soon, the endangered
         trio comes to realize a killer might be living amongst them as they race
         to decipher the mounting clues before it's too late.
+        <hr />
+        <button>Start Watching</button>
+        <button>Preview Trailer</button>
+        <div>original series on Hulu</div>
+        <br />
+        <div>
+          <em>
+            "The show itself feels like a fantasy; true crime fans solving their
+            very own murder mystery, and viewers get to indulge with them.
+            Audiences unwrap the mystery with the characters and are left with
+            their jaw on the floor at some of the twists and turns."
+          </em>
+        </div>
       </div>
     </div>
 
-    <button>Start Watching</button>
-    <button>Preview Trailer</button>
-
-    <div>
-      "The show itself feels like a fantasy; true crime fans solving their very
-      own murder mystery, and viewers get to indulge with them. Audiences unwrap
-      the mystery with the characters and are left with their jaw on the floor
-      at some of the twists and turns."
-    </div>
-
-    <div>
+    <div class="edpisodes-container">
       <div>
         Season 1
         <p>10 episodes</p>
@@ -185,5 +215,22 @@
         <p>10 episodes</p>
       </div>
     </div>
+    <footer>
+      This project was coded by
+      <a href="https://github.com/cdelro28" target="_blank"
+        >Christine Del Rosario</a
+      >, is open-sourced on
+      <a
+        href="https://github.com/cdelro28/binge-worthy-tv-show-challenge"
+        target="_blank"
+        >GitHub</a
+      >
+      and hosted on
+      <a
+        href="https://only-murders-in-the-building-tv-show.netlify.app/"
+        target="_blank"
+        >Netlify.</a
+      >
+    </footer>
   </body>
 </html>
