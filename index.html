@@ -4,32 +4,165 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;1,500&display=swap"
+      rel="stylesheet"
+    />
     <title>Binge-Worthy TV Shows Challenge</title>
+    <style>
+      body {
+        font-family: "Playfair Display", serif;
+        background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/114/525/original/background.jpeg?1707446148");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+      }
+
+      h1 {
+        background-color: #fff;
+        border-radius: 10px;
+        text-align: center;
+        padding: 20px;
+        margin: 20px 100px;
+      }
+
+      p {
+        background-color: #fff;
+      }
+
+      img {
+        max-width: 300px;
+      }
+
+      .container {
+        display: flex;
+        justify-content: center;
+        background-color: rgba(255, 255, 255, 0.5);
+        padding: 20px;
+        border-radius: 10px;
+        margin: 20px 100px;
+      }
+
+      .image-charles {
+        width: 500px;
+        height: 400px;
+        background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/115/167/original/charles-main.png?1707791165");
+        background-size: cover;
+        border-radius: 10px;
+      }
+
+      .image-charles:hover {
+        width: 500px;
+        height: 400px;
+        background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/115/168/original/charles-hover.png?1707791178");
+        background-size: cover;
+        background-position: center;
+        border-radius: 10px;
+        transition: all 1s ease-in-out;
+      }
+
+      .image-oliver {
+        width: 500px;
+        height: 400px;
+        background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/115/165/original/oliver-main.png?1707791150");
+        background-size: cover;
+        border-radius: 10px;
+      }
+
+      .image-oliver:hover {
+        width: 500px;
+        height: 400px;
+        background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/115/166/original/oliver-hover.png?1707791157");
+        background-size: cover;
+        background-position: center;
+        border-radius: 10px;
+        transition: all 1s ease-in-out;
+      }
+
+      .image-mabel {
+        width: 500px;
+        height: 400px;
+        background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/115/163/original/mabel-main.png?1707791129");
+        background-size: cover;
+        border-radius: 10px;
+      }
+
+      .image-mabel:hover {
+        width: 500px;
+        height: 400px;
+        background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/115/164/original/mabel-hover.png?1707791143");
+        background-size: cover;
+        background-position: center;
+        border-radius: 10px;
+        transition: all 1s ease-in-out;
+      }
+
+      .characters {
+        text-align: center;
+        max-width: 500px;
+        padding: 20px 30px;
+        border-radius: 10px;
+      }
+      .summary {
+        max-width: 500px;
+        margin-left: 200px;
+        padding: 20px 30px;
+        border-radius: 10px;
+        line-height: 2.5;
+      }
+
+      button {
+        background-color: #000;
+        font-size: 20px;
+        color: azure;
+      }
+
+      button:hover {
+        background: plum;
+        cursor: pointer;
+      }
+
+      div {
+        background-color: #fff;
+      }
+    </style>
   </head>
   <body>
     <h1>Only Murders in the Building</h1>
 
-    <p>
-      Three strangers who live in the same New York City apartment building
-      share an obsession with true crime and suddenly find themselves wrapped up
-      in one. When a grisly death occurs inside their exclusive Upper West Side
-      apartment building, the trio suspects murder and employs their precise
-      knowledge of true crime to investigate the truth. As they record a podcast
-      of their own to document the case, the three unravel the complex secrets
-      of the building which stretch back years. Perhaps even more explosive are
-      the lies they tell one another. Soon, the endangered trio comes to realize
-      a killer might be living amongst them as they race to decipher the
-      mounting clues before it's too late.
-    </p>
+    <div class="container">
+      <div class="characters">
+        <div>
+          <div class="image-charles"></div>
+          <p><strong>Steve Martin</strong><br />as Charles Savage</p>
+        </div>
+        <div>
+          <div class="image-oliver"></div>
+          <p><strong>Martin Short</strong><br />as Oliver Putnam</p>
+        </div>
+        <div>
+          <div class="image-mabel"></div>
+          <p><strong>Selena Gomez</strong><br />as Mabel Mora</p>
+        </div>
+      </div>
+      <div class="summary">
+        Three strangers who live in the same New York City apartment building
+        share an obsession with true crime and suddenly find themselves wrapped
+        up in one. When a grisly death occurs inside their exclusive Upper West
+        Side apartment building, the trio suspects murder and employs their
+        precise knowledge of true crime to investigate the truth. As they record
+        a podcast of their own to document the case, the three unravel the
+        complex secrets of the building which stretch back years. Perhaps even
+        more explosive are the lies they tell one another. Soon, the endangered
+        trio comes to realize a killer might be living amongst them as they race
+        to decipher the mounting clues before it's too late.
+      </div>
+    </div>
 
     <button>Start Watching</button>
     <button>Preview Trailer</button>
-
-    <div>
-      <p><strong>Steve Martin</strong> as Charles Savage</p>
-      <p><strong>Martin Short</strong> as Oliver Putnam</p>
-      <p><strong>Selena Gomez</strong> as Mabel Mora</p>
-    </div>
 
     <div>
       "The show itself feels like a fantasy; true crime fans solving their very
