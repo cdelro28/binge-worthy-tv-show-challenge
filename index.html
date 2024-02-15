@@ -13,7 +13,6 @@
     <title>Binge-Worthy TV Shows Challenge</title>
     <style>
       body {
-        font-family: "Playfair Display", serif;
         background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/114/525/original/background.jpeg?1707446148");
         background-repeat: no-repeat;
         background-position: center;
@@ -21,6 +20,7 @@
       }
 
       h1 {
+        font-family: "Playfair Display", serif;
         background-color: #fff;
         border-radius: 10px;
         text-align: center;
@@ -113,14 +113,31 @@
       }
 
       button {
-        background-color: #000;
+        background-color: #fff;
         font-size: 20px;
-        color: azure;
+        color: #000;
+        margin: 20px;
+        border: 1px solid rgba(0, 0, 0, 0.5);
+        border-radius: 10px;
+        text-decoration: none;
+        padding: 10px;
       }
 
       button:hover {
-        background: plum;
         cursor: pointer;
+        color: #fff;
+        background: rgba(30, 30, 30, 0.5);
+        border-radius: 10px;
+        padding: 10px;
+        transition: all 1000ms ease-in-out;
+      }
+
+      a {
+        text-decoration: none;
+      }
+
+      a:visited {
+        color: rgb(98, 28, 32);
       }
 
       div {
@@ -143,6 +160,7 @@
       .edpisodes-container div {
         padding: 30px;
         border-radius: 10px;
+        width: 25%;
       }
 
       footer {
@@ -185,10 +203,21 @@
         more explosive are the lies they tell one another. Soon, the endangered
         trio comes to realize a killer might be living amongst them as they race
         to decipher the mounting clues before it's too late.
-        <hr />
-        <button>Start Watching</button>
-        <button>Preview Trailer</button>
-        <div>original series on Hulu</div>
+
+        <button>
+          <a
+            href="https://www.hulu.com/series/only-murders-in-the-building-ef31c7e1-cd0f-4e07-848d-1cbfedb50ddf?entity_id=ac7d6848-31b4-4bdd-ba4b-3a78709265be"
+            target="_blank"
+          >
+            Start Watching
+          </a>
+        </button>
+        <button>
+          <a href="https://www.youtube.com/watch?v=aaifwVfAf4E" target="_blank">
+            Preview Trailer
+          </a>
+        </button>
+        <div><strong> original series on Hulu </strong></div>
         <br />
         <div>
           <em>
@@ -203,16 +232,41 @@
 
     <div class="edpisodes-container">
       <div>
-        Season 1
-        <p>10 episodes</p>
+        <h2>Season 1</h2>
+        <p><strong>10 Episodes</strong></p>
+        <p>
+          S1 E1 · True Crime
+          <br />
+          S1 E2 · Who Is Tim Kono?
+          <br />S1 E3 · How Well Do You Know Your Neighbors <br />S1 E4 · The
+          Sting <br />S1 E5 · The Sting; Twist; To Protect and Serve Part 2
+          <br />S1 E6 · The Sting; Twist; To Protect and Serve Part 3 <br />S1
+          E7 · The Boy From 6B <br />S1 E8 · Fan Fiction <br />S1 E9 · Double
+          Time <br />S1 E10 · Open and Shut
+        </p>
       </div>
       <div>
-        Season 2
-        <p>10 episodes</p>
+        <h2>Season 2</h2>
+        <p><strong>10 Episodes</strong></p>
+        <p>
+          S2 E1 · Persons of Interest <br />S2 E2 · Framed <br />S2 E3 · The
+          Last Day of Bunny Folger <br />S2 E4 · Here's Looking at You <br />S2
+          E5 · The Tell <br />S2 E6 · Performance Review <br />S2 E7 · Flipping
+          the Pieces <br />S2 E8 · Hello Darkness <br />S2 E9 · Sparring
+          Partners <br />S2 E10 · I Know Who Did It
+        </p>
       </div>
       <div>
-        Season 3
-        <p>10 episodes</p>
+        <h2>Season 3</h2>
+        <p><strong>10 Episodes</strong></p>
+
+        <p>
+          S3 E1 · The Show Must...
+          <br />S3 E2 · The Beat Goes On <br />S3 E3 · Grab Your Hankies
+          <br />S3 E4 · The White Room <br />S3 E5 · Ah, Love! <br />S3 E6 ·
+          Ghost Light <br />S3 E7 · CoBro <br />S3 E8 · Sitzprobe <br />S3 E9 ·
+          Episode 9 <br />S3 E10 · Opening Night
+        </p>
       </div>
     </div>
     <footer>
